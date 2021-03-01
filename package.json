@@ -1,0 +1,14 @@
+{
+  "name": "husky",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  }
+}
